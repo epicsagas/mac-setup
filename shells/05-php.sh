@@ -3,19 +3,19 @@
 echo "=> Php"
 
 
-DIR=$(echo /usr/local/etc/php/7.2)
+DIR=$(echo /usr/local/etc/php/7.1)
 CONFIG=$(echo $DIR/php.ini)
 TIMEZONE=$(echo $(cut -d ":" -f 2 <<< $(sudo systemsetup -gettimezone) | xargs))
 
 
-mkdir -p ~/Sites
+mkdir -p ~/workspace/www
 
 
 print_info "Making a file to display phpinfo..."
 
-if [ ! -f "$HOME/Sites/info.php" ]
+if [ ! -f "$HOME/workspace/www/info.php" ]
 then
-  echo "<?php phpinfo();" > "$HOME/Sites/info.php"
+  echo "<?php phpinfo();" > "$HOME/workspace/www/info.php"
   print_success "Completed..."
 else
   print_success "Skipping..."

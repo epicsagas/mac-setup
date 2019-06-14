@@ -19,7 +19,7 @@ then
   prepend_string_to_file "$CONFIGURED_MESSAGE" "$CONFIG"
 
   modify_file 'LoadModule rewrite_module' \
-    'LoadModule php7_module /usr/local/opt/php@7.2/lib/httpd/modules/libphp7.so' \
+    'LoadModule php7_module /usr/local/opt/php@7.1/lib/httpd/modules/libphp7.so' \
     "$CONFIG"
 
   uncomment_line 'rewrite_module' "$CONFIG"
@@ -36,7 +36,7 @@ then
 
   modify_line 'Group _www' 'Group staff' "$CONFIG"
 
-  modify_line '/usr/local/var/www' "/Users/$USER/Sites" "$CONFIG"
+  modify_line '/usr/local/var/www' "/Users/$USER/workspace/www" "$CONFIG"
 
   modify_line 'ServerName www.example.com:8080' "ServerName localhost" "$CONFIG"
 
@@ -61,7 +61,7 @@ then
 $CONFIGURED_MESSAGE
 
 Define USER $USER
-Define PATH "/Users/\${USER}/Sites"
+Define PATH "/Users/\${USER}/workspace/www"
 
 <VirtualHost *:80>
     ServerName localhost
