@@ -1,0 +1,103 @@
+# OCD HITS: EVERYTHING SORTED IN ALPHABETICAL ORDER!
+
+# Sources
+tap 'buo/cask-upgrade'
+tap 'caskroom/cask'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+
+# Utilities
+brew 'composer'
+brew 'dnsmasq'
+brew 'git'
+brew 'httpd'
+brew 'nginx'
+brew 'mas'
+brew 'mariadb'
+brew 'node'
+brew 'php@7.1'
+brew 'python3'
+brew 'redis'
+# brew 'sqlite'
+brew 'yarn'
+brew 'zsh'
+brew 'zsh-autosuggestions'
+brew 'zsh-completions'
+brew 'zsh-syntax-highlighting'
+
+# Apps from "Web"
+# cask '1password'
+# cask 'adobe-creative-cloud'
+cask 'alfred'
+cask 'anaconda'
+cask 'authy'
+cask 'bartender'
+cask 'bettertouchtool'
+cask 'boom-3d'
+cask 'busycal'
+cask 'calibre'
+cask 'daisydisk'
+cask 'dbeaver-community'
+cask 'deltawalker'
+cask 'devonagent'
+cask 'devonthink-pro'
+cask 'docker'
+cask 'dropbox'
+cask 'droplr'
+cask 'dropzone'
+# cask 'expressvpn'
+cask 'firefox'
+cask 'forklift'
+cask 'fontbase'
+cask 'flume'
+cask 'gas-mask'
+# cask 'gitkraken'
+cask 'google-backup-and-sync'
+cask 'google-chrome'
+cask 'google-nik-collection'
+cask 'iterm2-nightly'
+cask 'imageoptim'
+cask 'istat-menus'
+cask 'jetbrains-toolbox'
+cask 'keepingyouawake'
+cask 'lunar'
+cask 'manuscripts'
+# cask 'opera'
+cask 'pdf-expert'
+cask 'popclip'
+cask 'postman'
+# cask 'razer-synapse'
+cask 'scapple'
+cask 'screenflow'
+cask 'scrivener'
+#cask 'sequel-pro'
+cask 'sourcetree'
+cask 'sip'
+cask 'sketch'
+cask 'skype'
+cask 'slack'
+# cask 'spotify'
+cask 'sublime-text-dev'
+# cask 'teamviewer'
+cask 'the-unarchiver'
+# cask 'timing'
+cask 'transmission'
+cask 'transmit'
+cask 'vanilla'
+cask 'visual-studio'
+cask 'visual-studio-code'
+# cask 'vlc'
+cask 'waltr'
+
+# Apps from "App Store"
+mas 'Affinity Photo', id: 824183456
+mas 'Affinity Designer', id: 824171161
+# mas 'Airmail 3', id: 918858936
+# mas 'Bear', id: 1091189122
+mas 'Folx GO', id: 736584830
+mas 'iA Writer', id: 775737590
+mas 'Magnet', id: 441258766
+mas 'Medis', id: 1063631769
+mas 'Paste', id: 967805235
+mas 'WinZip', id: 583827028
